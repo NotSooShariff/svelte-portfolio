@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 125 211 252;
+  --secondary: 147 51 234;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.dark {
+  @apply bg-slate-950 text-slate-200;
+}
+
+.light {
+  @apply bg-slate-50 text-slate-800;
+}
+
+.dot-pattern {
+  background: 
+    linear-gradient(90deg, rgb(var(--primary) / 0.07) 1px, transparent 1px),
+    linear-gradient(rgb(var(--primary) / 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.glass {
+  @apply bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl border border-slate-200/50 dark:border-slate-800/50;
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 0.75rem;
+  background: linear-gradient(to right, rgb(var(--primary)), rgb(var(--secondary)));
+  padding: 1px;
+}
+
+.gradient-border > * {
+  border-radius: 0.7rem;
+}

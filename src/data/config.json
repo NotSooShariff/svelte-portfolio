@@ -1,0 +1,60 @@
+{
+  "name": "Shrek",
+  "title": "Professional Swamp Defender",
+  "image": "/profile.png",
+  "bio": "What are you doing in my swamp?! Professional onion layer enthusiast, part-time ogre rights activist, and certified dragon whisperer. Making the swamp great again since 2001.",
+  "social": {
+    "github": "https://github.com/shrektastic",
+    "linkedin": "https://linkedin.com/in/swamplife",
+    "twitter": "https://twitter.com/allstar2001"
+  },
+  "tools": [
+    {
+      "name": "Swamp Skills",
+      "skills": ["Onion Peeling", "Ear Wax Candles", "Roaring", "Mud Bathing", "Wall Building"]
+    },
+    {
+      "name": "Combat", 
+      "skills": ["Donkey Wrangling", "Knight Tossing", "Torch Mob Dispersal", "Fairy Tale Creature Management"]
+    },
+    {
+      "name": "Social",
+      "skills": ["Scaring Villagers", "Princess Rescue", "Dragon Negotiation", "Parfait Appreciation"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Swamp Renovation",
+      "description": "Converted a humble swamp into a premium 5-star mud resort with excellent boulder amenities",
+      "link": "https://swamplife.far/far/away",
+      "technologies": ["Mud", "Rocks", "Stick Architecture"]
+    },
+    {
+      "title": "Duloc Castle Raid", 
+      "description": "Successfully infiltrated and disrupted a wedding while proving true love's worth",
+      "link": "https://duloc.far/far/away",
+      "technologies": ["Dragon Power", "Donkey Support", "Wedding Crashing"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD in Swampology",
+      "school": "Far Far Away University",
+      "year": "2001"
+    }
+  ],
+  "research": [
+    {
+      "title": "The Complex Layers of Ogres and Onions: A Comparative Study",
+      "publication": "Fairy Tale Scientific Journal",
+      "year": "2004",
+      "link": "https://example.com/onion-layers"
+    },
+    {
+      "title": "Why Dragons and Donkeys Shouldn't Work: But Sometimes Do",
+      "publication": "Magical Creatures Quarterly", 
+      "year": "2003",
+      "link": "https://example.com/dragon-love"
+    }
+  ]
+}
